@@ -12,24 +12,6 @@ moduleForComponent('resize-detector', 'Integration | Component | resize detector
   integration: true
 });
 
-test('it renders', function(assert) {
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });
-
-  this.render(hbs`{{resize-detector}}`);
-
-  assert.equal(this.$().text().trim(), '');
-
-  // Template block usage:
-  this.render(hbs`
-    {{#resize-detector}}
-      template block text
-    {{/resize-detector}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
-});
-
 test('it triggers an action when target changes sizes', function(assert){
 
   assert.expect(2);

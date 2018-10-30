@@ -40,13 +40,13 @@ jQuery CSS selector for an element that should be watched.
 
 #### ResizeDetector#on-resize
 
-Action to be triggered when resized. The action handler will receive a hash with `width` and `height` 
+Action to be triggered when resized. The action handler will receive a hash with `width` and `height`
 as well as the element that changed sizes.
 
 
 ### Service
 
-The service allows you to create components that monitor sizes of other DOM elements. 
+The service allows you to create components that monitor sizes of other DOM elements.
 To use the service in you need to inject into the component and add a listener.
 
 To see a complete implementation, look at the [`{{resize-detector}}`](/EmberSherpa/ember-element-resize-detector/blob/master/addon/components/resize-detector.js) component's code.
@@ -75,5 +75,5 @@ For more formation, read comment in [ember-tether library](https://github.com/ya
 
 ## Credits
 
-This addon uses [wnr/element-resize-detector](https://github.com/wnr/element-resize-detector) library. 
-Lucas Wiener thank you for doing the hard to work make this performant. 
+This addon uses [wnr/element-resize-detector](https://github.com/wnr/element-resize-detector) library.
+Lucas Wiener thank you for doing the hard to work make this performant.
